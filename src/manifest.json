@@ -16,6 +16,7 @@
 
   "background":{
     "scripts":[
+      "assets/scripts/storage.js",
       "assets/scripts/todo.js",
       "assets/scripts/background.js"
     ],
