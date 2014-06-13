@@ -1,0 +1,25 @@
+{
+  "manifest_version":2,
+  "name":"Chrome Todo",
+  "version":"0.1.0",
+  
+  "description":"A demo Chrome browser action extension using a stripped-down version of BaseJS",
+
+  "browser_action":{
+    "default_icon":{
+      "19":"assets/images/icon/19.png",
+      "30":"assets/images/icon/19.png"
+    },
+    "default_title":"Chrome Todo",
+    "default_popup":"popup.html"
+  },
+
+  "background":{
+    "scripts":[
+      "assets/scripts/todo.js",
+      "assets/scripts/background.js"
+    ],
+    "persistent":true
+  }
+
+}
